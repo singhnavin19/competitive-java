@@ -6,15 +6,15 @@ public class LongestNonRepeatSubstringFromString {
 
 	public static void main(String[] args) {
 		String source = "hello";
-//		usingHashSet(source);
-//		usingArray(source);
-		int[] a = new int[128];
-		a['z'] = 2;
-
-		for (int j : a) {
-//			System.out.println(a['z']);
-			System.out.print(j);
-		}
+		usingHashSet(source);
+		usingArray(source);
+//		int[] a = new int[128];
+//		a['z'] = 2;
+//
+//		for (int j : a) {
+////			System.out.println(a['z']);
+//			System.out.print(j);
+//		}
 
 	}
 
